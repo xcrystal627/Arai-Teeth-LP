@@ -1,0 +1,375 @@
+.section-example {
+    padding-top: 80px;
+    padding-bottom: 60px;
+    background: #fff;
+    .container {
+        .example-ttl {
+            font-size: 34px;
+            letter-spacing: 0.12em;
+            line-height: 35px;
+            text-align: center;
+            color: #463c39;
+            font-family: YuGothic;
+            font-weight: bold;
+            position: relative;
+            &__top {
+                font-size: 64px;
+                line-height: 64px;
+                position: absolute;
+                top: -45px;
+                left: 50%;
+                transform: translateX(-50%);
+                font-family: Marcellus;
+                font-weight: normal;
+                color: rgba(146, 135, 134, 0.3);
+                opacity: 0.8;
+            }
+        }
+        .example-items {
+            padding: 0 75rem;
+            margin-top: 50rem;
+            .item {
+                padding: 46rem 64rem;
+                border-radius: 30px;
+                background: #f9f9f9;
+                &-img_badge {
+                    display: flex;
+                    justify-content: space-between;
+                    .item-ttl_status {
+                        .item-ttl {
+                            font-size: 24px;
+                            // line-height: 40px;
+                            padding-bottom: 20px;
+                            font-family: YuGothic;
+                            font-weight: bold;
+                            text-align: center;
+                            color: #463c39;
+                            border-bottom: 2px solid #756d6b;
+                        }
+                    }
+                }
+                .img-status {
+                    margin-top: 30px;
+                    .badge {
+                        font-size: 15px;
+                        padding: 4px 7px;
+                        margin-right: 10px;
+                        font-family: YuGothic;
+                        font-weight: bold;
+                        text-align: center;
+                        color: #7198d9;
+                        border-radius: 5px;
+                        border: 1px solid #7096c7;
+                    }
+                    .times {
+                        font-size: 17px;
+                        margin-right: 30px;
+                        font-family: YuGothic;
+                        font-weight: 500;
+                        color: #463c39;
+                    }
+                    .price {
+                        font-size: 17px;
+                        font-family: YuGothic;
+                        font-weight: 500;
+                        color: #463c39;
+                    }
+                    .img-status__top {
+                        // margin-top: 30px;
+                    }
+                    .img-status__bottom {
+                        margin-top: 22px;
+                    }
+                }
+                .dashed-line {
+                    border: 0.5px dashed #B6B2B1;
+                }
+                .mt-27 {
+                    margin-top: 27px;
+                }
+                .item-imgs {
+                    display: flex;
+                    // margin-left: 60px;
+                    .item-img {
+                        .img-ttl__before {
+                            margin-top: 7px;
+                            font-size: 19px;
+                            line-height: 27px;
+                            font-family: "FuturaPT";
+                            text-align: center;
+                            color: #9f776b;
+                        }
+                        .img-ttl__after {
+                            margin-top: 7px;
+                            font-size: 19px;
+                            line-height: 27px;
+                            font-family: "FuturaPT";
+                            text-align: center;
+                            color: #21508d;
+                        }
+                        .img-pack {}
+                    }
+                    .ml-37 {
+                        margin-left: 37px;
+                    }
+                }
+                &-desc {
+                    margin-top: 20px;
+                    font-size: 15px;
+                    line-height: 32px;
+                    font-family: YuGothic;
+                    font-weight: bold;
+                    color: #463c39;
+                }
+                .status-sp {
+                    display: none;
+                }
+            }
+            .mt-30 {
+                margin-top: 30px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1399px) {
+    .section-example {
+        padding-top: 80px;
+        padding-bottom: 60px;
+        background: #fff;
+        .container {
+            .example-ttl {
+                font-size: 34px;
+                letter-spacing: 0.12em;
+                line-height: 35px;
+                text-align: center;
+                color: #463c39;
+                font-family: YuGothic;
+                font-weight: bold;
+                position: relative;
+                &__top {
+                    font-size: 64px;
+                    line-height: 64px;
+                    position: absolute;
+                    top: -45px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    font-family: Marcellus;
+                    font-weight: normal;
+                    color: rgba(146, 135, 134, 0.3);
+                    opacity: 0.8;
+                }
+            }
+            .example-items {
+                padding: 0 75rem;
+                margin-top: 50rem;
+                .item {
+                    padding: 46rem 64rem;
+                    border-radius: 30px;
+                    background: #f9f9f9;
+                    &-img_badge {
+                        display: flex;
+                        justify-content: space-between;
+                        .item-ttl_status {
+                            .item-ttl {
+                                font-size: 24rem;
+                                line-height: 35rem;
+                                font-family: YuGothic;
+                                font-weight: bold;
+                                text-align: center;
+                                color: #463c39;
+                                border-bottom: 2rem solid #756d6b;
+                            }
+                        }
+                    }
+                    .img-status {
+                        margin-top: 30rem;
+                        .badge {
+                            font-size: 15rem;
+                            padding: 4rem 7rem;
+                            margin-right: 10rem;
+                            font-family: YuGothic;
+                            font-weight: bold;
+                            text-align: center;
+                            color: #7198d9;
+                            border-radius: 5px;
+                            border: 1rem solid #7096c7;
+                        }
+                        .times {
+                            font-size: 17rem;
+                            margin-right: 30rem;
+                            font-family: YuGothic;
+                            font-weight: 500;
+                            color: #463c39;
+                        }
+                        .price {
+                            font-size: 17rem;
+                            font-family: YuGothic;
+                            font-weight: 500;
+                            color: #463c39;
+                        }
+                        .img-status__top {
+                            // margin-top: 30rem;
+                        }
+                        .img-status__bottom {
+                            margin-top: 22rem;
+                        }
+                    }
+                    .dashed-line {
+                        border: 1rem dashed #756d6b;
+                    }
+                    .mt-27 {
+                        margin-top: 27rem;
+                    }
+                    .item-imgs {
+                        display: flex;
+                        // margin-left: 60rem;
+                        .item-img {
+                            .img-ttl__before {
+                                margin-top: 7rem;
+                                font-size: 19px;
+                                line-height: 27px;
+                                font-family: "FuturaPT";
+                                text-align: center;
+                                color: #9f776b;
+                            }
+                            .img-ttl__after {
+                                margin-top: 7re;
+                                font-size: 19px;
+                                line-height: 27px;
+                                font-family: "FuturaPT";
+                                text-align: center;
+                                color: #21508d;
+                            }
+                            .img-pack {}
+                        }
+                        .ml-37 {
+                            margin-left: 37rem;
+                        }
+                    }
+                    &-desc {
+                        margin-top: 36rem;
+                        font-size: 15px;
+                        line-height: 32px;
+                        font-family: YuGothic;
+                        font-weight: bold;
+                        color: #463c39;
+                    }
+                    .status-sp {
+                        display: none;
+                    }
+                }
+                .mt-30 {
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .section-example {
+        .container {
+            padding: 0 200rem;
+            .example-items {
+                padding: 0 55rem;
+                .item {
+                    .item-img_badge {
+                        flex-direction: column;
+                        align-items: center;
+                        .item-ttl_status {
+                            .item-ttl {
+                                font-size: 17px;
+                                line-height: 20px;
+                            }
+                        }
+                        .item-imgs {
+                            margin-top: 20px;
+                            .item-img {
+                                .item-ttl__before,
+                                .item-ttl__after {
+                                    font-size: 13px;
+                                    line-height: 15px;
+                                }
+                            }
+                        }
+                    }
+                    .pc-only {
+                        display: none;
+                    }
+                    .status-sp {
+                        display: block;
+                        .mt-20 {
+                            margin-top: 20px;
+                        }
+                        .img-status {
+                            .badge {
+                                font-size: 13px;
+                                line-height: 15px;
+                                margin-right: 5px;
+                            }
+                            .times {
+                                font-size: 15px;
+                                margin-right: 5px;
+                            }
+                            .price {
+                                font-size: 15px;
+                                margin-right: 5px;
+                            }
+                        }
+                    }
+                    &-desc {
+                        font-size: 13px;
+                        line-height: 23px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 750px) {
+    .section-example {
+        .container {
+            padding: 0 150rem;
+            .example-ttl {
+                font-size: 22px;
+                letter-spacing: 0.12em;
+                line-height: 22px;
+                &__top {
+                    font-size: 44px;
+                    line-height: 44px;
+                    top: -30px;
+                    left: 50%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .section-example {
+        .container {
+            padding: 0 13px;
+            .example-items {
+                padding: 21rem 20rem;
+                .item {
+                    padding: 22px;
+                    &-ttl {
+                        font-size: 16rem;
+                    }
+                    .status-sp {
+                        .img-status {
+                            .times {
+                                font-size: 12px;
+                            }
+                            .price {
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

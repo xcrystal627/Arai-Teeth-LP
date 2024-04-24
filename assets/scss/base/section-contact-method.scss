@@ -1,0 +1,190 @@
+.section-contacts {
+    background: #f9f9f9;
+    padding: 57px 0 51px;
+    &__desc {
+        // padding-top: 57px;
+        font-size: 32px;
+        letter-spacing: 0.04em;
+        line-height: 43px;
+        font-family: "Yu Gothic";
+        font-weight: 500;
+        color: #463c39;
+        text-align: center;
+        .sp-only {
+            display: none;
+        }
+    }
+    &__methods {
+        margin-top: 36px;
+        display: flex;
+        justify-content: center;
+        .contact-phone {
+            padding: 16px 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #9f776b;
+            &__img {
+                margin-right: 13px;
+                img {
+                    width: 38px;
+                }
+            }
+            &__info {
+                &-desc {
+                    font-size: 20px;
+                    line-height: 21px;
+                    font-family: YuGothic;
+                    font-weight: bold;
+                    color: #fff;
+                }
+                &-number {
+                    font-size: 43px;
+                    line-height: 45px;
+                    font-family: "FuturaPT";
+                    font-weight: normal;
+                    color: #fff;
+                }
+            }
+        }
+        .contact-web {
+            margin-left: 40px;
+            padding: 15px 73px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #7198d9;
+            &__img {
+                margin-right: 22px;
+                img {
+                    width: 38px;
+                }
+            }
+            &__info {
+                &-desc {
+                    font-size: 20px;
+                    line-height: 21px;
+                    font-family: YuGothic;
+                    font-weight: bold;
+                    color: #fff;
+                }
+                &-number {
+                    font-size: 33px;
+                    letter-spacing: 0.1em;
+                    line-height: 35px;
+                    font-family: YuGothic;
+                    font-weight: bold;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .section-contacts {
+        padding: 57rem 0 51rem;
+        &__desc {
+            font-size: 28px;
+            letter-spacing: 0.04em;
+            line-height: 32px;
+            .sp-only {
+                display: block;
+            }
+        }
+        &__methods {
+            margin-top: 50rem;
+            .contact-phone {
+                padding: 25rem 70rem;
+                &__img {
+                    margin-right: 25rem;
+                    img {
+                        width: 70rem;
+                    }
+                }
+                &__info {
+                    &-desc {
+                        font-size: 40rem;
+                        line-height: 45rem;
+                    }
+                    &-number {
+                        font-size: 70rem;
+                        line-height: 75rem;
+                    }
+                }
+            }
+            .contact-web {
+                margin-left: 40rem;
+                padding: 15rem 73rem;
+                &__img {
+                    margin-right: 25rem;
+                    img {
+                        width: 70rem;
+                    }
+                }
+                &__info {
+                    &-desc {
+                        font-size: 40rem;
+                        line-height: 45rem;
+                    }
+                    &-number {
+                        font-size: 70rem;
+                        line-height: 75rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .section-contacts {
+        padding: 34px 0 37px;
+        &__desc {
+            font-size: 20px;
+            line-height: 27px;
+        }
+        &__methods {
+            margin-top: 15px;
+            .contact-phone {
+                padding: 5px 15px 5px 15px;
+                &__img {
+                    margin-right: 6px;
+                    img {
+                        width: 18px;
+                    }
+                }
+                &__info {
+                    &-desc {
+                        font-size: 11px;
+                        line-height: 12px;
+                    }
+                    &-number {
+                        font-size: 20px;
+                        line-height: 23px;
+                    }
+                }
+            }
+            .contact-web {
+                margin-left: 11px;
+                padding: 7px 16px;
+                &__img {
+                    margin-right: 11px;
+                    img {
+                        width: 19px;
+                    }
+                }
+                &__info {
+                    &-desc {
+                        font-size: 11px;
+                        line-height: 12px;
+                    }
+                    &-number {
+                        font-size: 15px;
+                        line-height: 17px;
+                    }
+                }
+            }
+        }
+    }
+}

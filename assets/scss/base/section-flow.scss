@@ -1,0 +1,295 @@
+.section-flow {
+    padding-top: 130px;
+    padding-bottom: 100px;
+    .container {
+        padding: 0 165px;
+        .flow-ttl {
+            font-size: 34px;
+            letter-spacing: 0.12em;
+            line-height: 35px;
+            text-align: center;
+            color: #463c39;
+            font-family: YuGothic;
+            font-weight: bold;
+            position: relative;
+            &__top {
+                font-size: 64px;
+                line-height: 64px;
+                position: absolute;
+                top: -45px;
+                left: 50%;
+                transform: translateX(-50%);
+                font-family: Marcellus;
+                font-weight: normal;
+                color: rgba(146, 135, 134, 0.3);
+                opacity: 0.8;
+            }
+        }
+        .flow-items__pc {
+            margin-top: 60px;
+            .flow-items {
+                display: flex;
+                justify-content: center;
+                &__item {
+                    width: 254px;
+                    .img-pack {
+                        position: relative;
+                        .item-number {
+                            font-size: 25px;
+                            position: absolute;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 54px;
+                            height: 54px;
+                            top: -27px;
+                            left: -27px;
+                            border-radius: 50%;
+                            background: #7198d9;
+                            font-family: "Futura PT";
+                            font-weight: normal;
+                            text-align: center;
+                            color: #fff;
+                        }
+                        .next-triangle__fst {
+                            position: absolute;
+                            z-index: 10;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            right: -37px;
+                        }
+                        .next-triangle__sed {
+                            position: absolute;
+                            z-index: 10;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            right: -37px;
+                        }
+                        .next-triangle__thd {
+                            position: absolute;
+                            z-index: 10;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            right: -37px;
+                        }
+                        .next-triangle__foth {
+                            display: none;
+                            position: absolute;
+                            z-index: 10;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            right: -37px;
+                        }
+                        .next-triangle__fith {
+                            position: absolute;
+                            z-index: 10;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            right: -37px;
+                        }
+                        .next-triangle__sith {
+                            position: absolute;
+                            z-index: 10;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            right: -37px;
+                        }
+                    }
+                    .item-ttl {
+                        margin-top: 20px;
+                        font-size: 20px;
+                        line-height: 27.85px;
+                        font-family: YuGothic;
+                        font-weight: bold;
+                        text-align: center;
+                        color: #21508d;
+                    }
+                    .item-desc {
+                        font-size: 14px;
+                        line-height: 26px;
+                        padding: 0 3px;
+                        font-family: "YuGothic";
+                        font-weight: bold;
+                        color: #463c39;
+                        .color-blue {
+                            color: #21508d;
+                        }
+                        .color-red {
+                            color: #F03460;
+                        }
+                        .back-yellow {
+                            background: linear-gradient(transparent 60%, #FFFCB9 0%);
+                        }
+                    }
+                }
+                .ml-30 {
+                    margin-left: 30px;
+                }
+                .w-bigger {
+                    width: 392px;
+                }
+            }
+        }
+        .mt-85 {
+            margin-top: 85px;
+        }
+        .flow-items__sp {
+            margin-top: 60px;
+            display: none;
+            .mt-43 {
+                margin-top: 20px;
+            }
+            .flow-items {
+                display: flex;
+                justify-content: center;
+                &__item {
+                    width: 800rem;
+                    margin: 0 auto;
+                    .img-pack {
+                        position: relative;
+                        img {
+                            width: 100%;
+                        }
+                        .item-number {
+                            font-size: 25px;
+                            position: absolute;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 54px;
+                            height: 54px;
+                            top: -27px;
+                            left: -27px;
+                            border-radius: 50%;
+                            background: #7198d9;
+                            font-family: "Futura PT";
+                            font-weight: normal;
+                            text-align: center;
+                            color: #fff;
+                        }
+                    }
+                    .item-ttl {
+                        margin-top: 20px;
+                        font-size: 20px;
+                        line-height: 27.85px;
+                        font-family: YuGothic;
+                        font-weight: bold;
+                        text-align: center;
+                        color: #21508d;
+                    }
+                    .item-desc {
+                        font-size: 14px;
+                        line-height: 26px;
+                        padding: 0 3px;
+                        font-family: "YuGothic";
+                        font-weight: bold;
+                        color: #463c39;
+                        .color-blue {
+                            color: #21508d;
+                        }
+                        .color-red {
+                            color: #F03460;
+                        }
+                        .back-yellow {
+                            background: linear-gradient(transparent 60%, #FFFCB9 0%);
+                        }
+                    }
+                    .down-triangle {
+                        display: flex;
+                        justify-content: center;
+                        margin-top: 50px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1399px) {
+    .section-flow {
+        padding-top: 130rem;
+        padding-bottom: 100rem;
+        .container {
+            padding: 0 50rem;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .section-flow {
+        .container {
+            .flow-items__pc {
+                display: none;
+            }
+            .flow-items__sp {
+                display: block;
+            }
+        }
+    }
+}
+
+@media (max-width: 750px) {
+    .section-flow {
+        .container {
+            padding: 0 150rem;
+            .flow-ttl {
+                font-size: 22px;
+                letter-spacing: 0.12em;
+                line-height: 22px;
+                &__top {
+                    font-size: 44px;
+                    line-height: 44px;
+                    top: -30px;
+                    left: 50%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .section-flow {
+        .container {
+            padding: 0 18px;
+            .flow-ttl {
+                font-size: 22px;
+                letter-spacing: 0.12em;
+                line-height: 22px;
+                &__top {
+                    font-size: 44px;
+                    line-height: 44px;
+                    top: -30px;
+                    left: 50%;
+                }
+            }
+            .flow-items__sp {
+                margin-top: 40px;
+                .mt-43 {
+                    margin-top: 43px;
+                }
+                .flow-items {
+                    &__item {
+                        width: 340px;
+                        .img-pack {
+                            width: 253px;
+                            margin: 0 auto;
+                        }
+                        .item-ttl {
+                            margin-top: 15px;
+                            font-size: 22px;
+                            line-height: 22px;
+                        }
+                        .item-desc {
+                            margin-top: 17px;
+                            font-size: 14px;
+                            line-height: 20px;
+                        }
+                        .down-triangle {
+                            margin-top: 41px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

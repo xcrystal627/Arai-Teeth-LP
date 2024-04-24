@@ -1,0 +1,1150 @@
+html {
+    font-size: calc(100vw / 1400);
+}
+
+.header {
+    background: #f5f5f5;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+    &-logo {
+        padding-top: 28px;
+        padding-left: 34px;
+        // padding-bottom: 18px;
+    }
+    &-contacts {
+        padding-top: 17px;
+        padding-right: 17px;
+        &__top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &-desc {
+                .text {
+                    margin-right: 30px;
+                    font-family: "YuGothic";
+                    font-weight: bold;
+                    font-size: 18px;
+                    line-height: 28.3px;
+                    text-align: left;
+                    color: #463c39;
+                }
+                .sp-times {
+                    display: none;
+                    font-family: "YuGothic";
+                    font-weight: 500;
+                    font-size: 13px;
+                    letter-spacing: 0.01em;
+                    text-align: left;
+                    color: #463c39;
+                    .font-bold {
+                        font-weight: bold;
+                    }
+                }
+            }
+            &-method {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .contact-phone {
+                    background: #9f776b;
+                    margin-right: 15px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 11px 8px 3px 15px;
+                    width: 214px;
+                    &__img {
+                        // padding: 19px 7.3px 16.2px 14.9px;
+                    }
+                    &__info {
+                        display: block;
+                        padding-left: 7.5px;
+                        &-desc {
+                            font-family: "YuGothic";
+                            font-weight: 500;
+                            font-size: 12px;
+                            text-align: left;
+                            color: #fff;
+                        }
+                        &-number {
+                            font-family: "FuturaPT";
+                            font-weight: normal;
+                            font-size: 26px;
+                            line-height: 26px;
+                            text-align: left;
+                            color: #fff;
+                        }
+                    }
+                }
+                .contact-web {
+                    background: #799ac4;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 10px 20px 7px 20px;
+                    width: 214px;
+                    &__img {
+                        // d
+                    }
+                    &__info {
+                        display: block;
+                        padding-left: 13px;
+                        &-desc {
+                            font-family: "YuGothic";
+                            font-weight: 500;
+                            font-size: 12px;
+                            text-align: left;
+                            color: #fff;
+                        }
+                        &-number {
+                            font-family: "YuGothic";
+                            font-weight: 500;
+                            font-size: 23px;
+                            letter-spacing: 0.01em;
+                            line-height: 23px;
+                            text-align: left;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+        &__times-pc {
+            display: inline-flex;
+            float: right;
+            border-bottom: 1px solid #463c39;
+            .times-item {
+                padding-left: 20px;
+                font-family: "YuGothic";
+                font-weight: 500;
+                font-size: 13px;
+                letter-spacing: 0.01em;
+                line-height: 27px;
+                text-align: left;
+                color: #463c39;
+                .font-bold {
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1401px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: auto;
+        width: 100%;
+        max-width: 1400px;
+    }
+}
+
+@media (max-width: 992px) {
+    .header {
+        &-contacts {
+            &__top {
+                &-desc {
+                    .text {
+                        border-bottom: 1px solid #463c39;
+                    }
+                    .sp-times {
+                        display: block;
+                    }
+                }
+                &-method {
+                    flex-direction: column;
+                    .contact-phone {
+                        margin: 0px 0px 5px 0px;
+                    }
+                }
+            }
+            &__times-pc {
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 750px) {
+    .header {
+        &-logo {
+            padding-top: 28rem;
+            padding-left: 34rem;
+            padding-bottom: 18rem;
+            img {
+                width: 330rem;
+            }
+        }
+        &-contacts {
+            padding-top: 17px;
+            padding-right: 17px;
+            &__top {
+                &-desc {
+                    .text {
+                        margin-right: 15px;
+                        font-size: 35rem;
+                        line-height: 50rem;
+                    }
+                    .sp-times {
+                        font-size: 30rem;
+                        line-height: 45rem;
+                        letter-spacing: 0.01em;
+                    }
+                }
+                &-method {
+                    .contact-phone {
+                        padding: 15rem 15rem 5rem 30rem;
+                        width: 400rem;
+                        &__img {
+                            //S
+                        }
+                        &__info {
+                            padding-left: 15rem;
+                            &-desc {
+                                font-size: 25rem;
+                                line-height: 35rem;
+                            }
+                            &-number {
+                                font-size: 40rem;
+                                line-height: 50rem;
+                            }
+                        }
+                    }
+                    .contact-web {
+                        padding: 15rem 35rem 5rem 30rem;
+                        width: 400rem;
+                        &__img {
+                            // d
+                        }
+                        &__info {
+                            padding-left: 15rem;
+                            &-desc {
+                                font-size: 25rem;
+                                line-height: 35rem;
+                            }
+                            &-number {
+                                font-size: 40rem;
+                                line-height: 50rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    .header {
+        &-logo {
+            padding-top: 15px;
+            padding-left: 13px;
+            padding-bottom: 0px;
+            img {
+                width: 90px;
+                height: 59px;
+            }
+        }
+        &-contacts {
+            padding-top: 12px;
+            padding-right: 10px;
+            &__top {
+                &-desc {
+                    .text {
+                        font-size: 10px;
+                        line-height: 14px;
+                    }
+                    .sp-times {
+                        font-size: 9px;
+                        line-height: 13px;
+                    }
+                }
+                &-method {
+                    .contact-phone {
+                        padding: 11rem 8rem 3rem 15rem;
+                        width: 112px;
+                        height: 30px;
+                        &__img {
+                            width: 12px;
+                            height: 12px;
+                        }
+                        &__info {
+                            padding-left: 7.5rem;
+                            &-desc {
+                                font-size: 7px;
+                                line-height: 10px;
+                            }
+                            &-number {
+                                font-size: 13px;
+                                line-height: 18px;
+                            }
+                        }
+                    }
+                    .contact-web {
+                        padding: 10rem 20rem 7rem 20rem;
+                        width: 112px;
+                        height: 30px;
+                        &__img {
+                            width: 12px;
+                            height: 12px;
+                        }
+                        &__info {
+                            display: block;
+                            padding-left: 25rem;
+                            &-desc {
+                                font-size: 7px;
+                                line-height: 10px;
+                            }
+                            &-number {
+                                font-size: 13px;
+                                line-height: 18px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.section-first__view {
+    background: #f5f5f5;
+    .container {
+        position: relative;
+        display: flex;
+        height: 77vh;
+        .first-view__img {
+            position: absolute;
+            bottom: 0;
+            left: 140px;
+            z-index: 10;
+            img {
+                height: 100%;
+            }
+        }
+        .first-view__space-pc {
+            width: 35%;
+        }
+        .first-view {
+            width: 63%;
+            text-align: center;
+            &__desc {
+                .desc-ttl {
+                    font-family: "YuGothic";
+                    font-weight: 500;
+                    font-size: 45px;
+                    letter-spacing: 0.04em;
+                    line-height: 61px;
+                    color: #463c39;
+                    .sp-only {
+                        display: none;
+                    }
+                }
+                .desc-txt {
+                    margin-top: 15px;
+                    display: inline-block;
+                    padding: 8px 20px 8px;
+                    font-family: "YuGothic";
+                    font-weight: bold;
+                    font-size: 19px;
+                    letter-spacing: 0.04em;
+                    line-height: 21px;
+                    color: #f03460;
+                    background-color: #fffcb9;
+                    .sp-only {
+                        display: none;
+                    }
+                }
+            }
+            &__items {
+                position: relative;
+                z-index: 1000;
+                margin-top: -10px;
+                padding: 0px 95px;
+                display: flex;
+                justify-content: center;
+                // .items-row__f {
+                //     display: flex;
+                //     justify-content: center;
+                //     .items-f__item {
+                //         width: 154.64px;
+                //         height: 154.64px;
+                //         position: relative;
+                //         .item-blur {
+                //             position: absolute;
+                //             left: 0;
+                //             right: 0;
+                //             top: 0;
+                //             bottom: 0;
+                //             background: #fff;
+                //             border-radius: 50%;
+                //             filter: blur(7.8px);
+                //             z-index: -1;
+                //         }
+                //         border-radius: 50%;
+                //         display: flex;
+                //         justify-content: center;
+                //         align-items: center;
+                //         .item-content {
+                //             .item-img__pack {
+                //                 display: inline-flex;
+                //             }
+                //             .item-ff__txt {
+                //                 font-family: "YuGothic";
+                //                 font-weight: bold;
+                //                 font-size: 16px;
+                //                 line-height: 22px;
+                //                 text-align: center;
+                //                 color: #635146;
+                //                 .color-blue {
+                //                     color: #21508D;
+                //                 }
+                //             }
+                //         }
+                //     }
+                //     .mx-35 {
+                //         margin: 0 35px 0;
+                //     }
+                // }
+                // .items-row__s {
+                //     margin-top: 15px;
+                //     display: flex;
+                //     justify-content: center;
+                //     .items-f__item {
+                //         width: 154.64px;
+                //         height: 154.64px;
+                //         position: relative;
+                //         .item-blur {
+                //             position: absolute;
+                //             left: 0;
+                //             right: 0;
+                //             top: 0;
+                //             bottom: 0;
+                //             background: #fff;
+                //             border-radius: 50%;
+                //             filter: blur(7.8px);
+                //             z-index: -1;
+                //         }
+                //         border-radius: 50%;
+                //         display: flex;
+                //         justify-content: center;
+                //         align-items: center;
+                //         .item-content {
+                //             .item-img__pack {
+                //                 display: inline-flex;
+                //             }
+                //             .item-ff__txt {
+                //                 font-family: "YuGothic";
+                //                 font-weight: bold;
+                //                 font-size: 16px;
+                //                 line-height: 22px;
+                //                 text-align: center;
+                //                 color: #635146;
+                //                 .color-blue {
+                //                     color: #21508D;
+                //                 }
+                //             }
+                //         }
+                //     }
+                //     .mx-35 {
+                //         margin: 0 35px 0;
+                //     }
+                // }
+            }
+        }
+    }
+    .fv-info__img {
+        position: relative;
+        background: url('./../img/fv-back.png') center no-repeat;
+        background-size: cover;
+        height: 50vh;
+        .info-box {
+            position: absolute;
+            top: -80px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #fff;
+            padding: 42px 74px 45px;
+            box-shadow: 0px 0px 26px rgba(0, 0, 0, 0.08);
+            z-index: 100;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .price {
+                &-ttl {
+                    padding-left: 30px;
+                    font-family: "YuGothic";
+                    font-weight: 500;
+                    font-size: 45px;
+                    letter-spacing: 0.12em;
+                    line-height: 67.95px;
+                    color: #463c39;
+                    .sp-only {
+                        display: none;
+                    }
+                }
+                &-txt {
+                    display: flex;
+                    align-items: flex-end;
+                    .flex {
+                        display: flex;
+                    }
+                    .justify-center {
+                        justify-content: center;
+                    }
+                    .align-center {
+                        align-items: center;
+                    }
+                    &__month {
+                        font-family: "YuGothic";
+                        font-weight: bold;
+                        font-size: 23px;
+                        line-height: 25px;
+                        text-align: left;
+                        color: #463c39;
+                    }
+                    &__amount {
+                        font-family: "FuturaPT";
+                        font-weight: 500;
+                        font-size: 98px;
+                        line-height: 98px;
+                        text-align: left;
+                        color: #463c39;
+                    }
+                    &__unit {
+                        font-family: "FuturaPT";
+                        font-size: 28px;
+                        text-align: left;
+                        color: #463c39;
+                    }
+                }
+                &-desc {
+                    padding-left: 30px;
+                    .txt {
+                        font-family: "YuGothic";
+                        font-weight: 500;
+                        font-size: 11px;
+                        line-height: 17px;
+                        color: #463c39;
+                        width: 110%;
+                    }
+                }
+            }
+            .contact-method {
+                padding-left: 35px;
+                .contact-phone {
+                    background: #9f776b;
+                    margin-right: 15px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 10px 20px;
+                    width: 276px;
+                    height: 75px;
+                    &__img {
+                        img {
+                            width: 29.5px;
+                        }
+                    }
+                    &__info {
+                        display: block;
+                        padding-left: 7.5px;
+                        &-desc {
+                            font-family: "YuGothic";
+                            font-weight: 500;
+                            font-size: 15px;
+                            line-height: 20px;
+                            text-align: left;
+                            color: #fff;
+                        }
+                        &-number {
+                            font-family: "FuturaPT";
+                            font-weight: normal;
+                            font-size: 33px;
+                            line-height: 35px;
+                            text-align: left;
+                            color: #fff;
+                        }
+                    }
+                }
+                .contact-web {
+                    margin-top: 20px;
+                    background: #799ac4;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 10px 20px;
+                    width: 276px;
+                    height: 75px;
+                    &__img {
+                        img {
+                            width: 31px;
+                        }
+                    }
+                    &__info {
+                        display: block;
+                        padding-left: 13px;
+                        &-desc {
+                            font-family: "YuGothic";
+                            font-weight: 500;
+                            font-size: 15px;
+                            line-height: 20px;
+                            text-align: left;
+                            color: #fff;
+                        }
+                        &-number {
+                            font-family: "YuGothic";
+                            font-weight: 600;
+                            font-size: 25px;
+                            line-height: 28px;
+                            letter-spacing: 0.1em;
+                            line-height: 23px;
+                            text-align: left;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:1399px) {
+    .section-first__view {
+        .container {
+            .first-view__img {
+                top: 10px;
+                left: 10rem;
+            }
+            .first-view__space-pc {
+                width: 25%;
+            }
+            .first-view {
+                width: 70%;
+                &__desc {
+                    .desc-ttl {
+                        font-size: 45rem;
+                        line-height: 60rem;
+                    }
+                    .desc-txt {
+                        font-size: 20rem;
+                        line-height: 25rem;
+                        padding: 3px 0 3px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .section-first__view {
+        .container {
+            height: auto;
+            .first-view__img {
+                top: 30px;
+                right: 0px;
+                display: flex;
+                justify-content: flex-end;
+                img {
+                    width: 35%;
+                    height: fit-content;
+                }
+            }
+            .first-view__space-pc {
+                display: none;
+            }
+            .first-view {
+                width: 100%;
+                margin-top: 40px;
+                &__desc {
+                    width: 70%;
+                    padding: 0px 30px;
+                    // display: flex;
+                    // flex-direction: column;
+                    .desc-ttl {
+                        display: block;
+                        font-size: 45px;
+                        letter-spacing: 0.04em;
+                        line-height: 50px;
+                        .sp-only {
+                            display: block;
+                        }
+                    }
+                    .desc-txt {
+                        font-size: 20px;
+                        line-height: 30px;
+                        padding: 5px 20px;
+                        .sp-only {
+                            display: block;
+                        }
+                    }
+                }
+                &__items {
+                    margin-top: 20vh;
+                }
+            }
+        }
+        .fv-info__img {
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            .info-box {
+                top: 0;
+                left: 0;
+                transform: none;
+                position: relative;
+                flex-direction: column;
+                padding: 15px;
+                .price {
+                    &-f {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .price-ttl {
+                            padding-left: 0px;
+                            font-size: 70rem;
+                            line-height: 90rem;
+                            .sp-only {
+                                display: block;
+                            }
+                        }
+                        .price-txt {
+                            display: flex;
+                            align-items: flex-end;
+                            &__month {
+                                font-size: 40rem;
+                                line-height: 50rem;
+                            }
+                            &__amount {
+                                font-size: 170rem;
+                                line-height: 200rem;
+                            }
+                            &__unit {
+                                font-size: 50rem;
+                            }
+                        }
+                    }
+                    &-desc {
+                        padding-left: 0px;
+                        .txt {
+                            width: 100%;
+                            font-size: 30rem;
+                            line-height: 50rem;
+                        }
+                    }
+                }
+                .contact-method {
+                    padding-left: 0px;
+                    margin-top: 35rem;
+                    display: flex;
+                    justify-content: center;
+                    .contact-phone {
+                        margin-right: 0px;
+                        padding: 15rem 30rem;
+                        width: auto;
+                        height: auto;
+                        &__img {
+                            img {
+                                width: 60rem;
+                            }
+                        }
+                        &__info {
+                            padding-left: 15rem;
+                            &-desc {
+                                font-size: 30rem;
+                                line-height: 35rem;
+                            }
+                            &-number {
+                                font-size: 60rem;
+                                line-height: 70rem;
+                            }
+                        }
+                    }
+                    .contact-web {
+                        margin-top: 0px;
+                        margin-left: 35rem;
+                        padding: 15rem 20rem;
+                        width: auto;
+                        height: auto;
+                        &__img {
+                            img {
+                                width: 60rem;
+                            }
+                        }
+                        &__info {
+                            padding-left: 15rem;
+                            &-desc {
+                                font-size: 30rem;
+                                line-height: 50rem;
+                            }
+                            &-number {
+                                font-size: 60rem;
+                                line-height: 70rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 750px) {
+    .section-first__view {
+        .container {
+            .first-view {
+                &__img {
+                    // top: 0px;
+                    right: 0px;
+                    display: flex;
+                    justify-content: flex-end;
+                }
+                &__desc {
+                    width: 75%;
+                    .desc-ttl {
+                        display: block;
+                        font-size: 80rem;
+                        letter-spacing: 0.04em;
+                        line-height: 100rem;
+                    }
+                    .desc-txt {
+                        font-size: 35rem;
+                        line-height: 50rem;
+                        letter-spacing: 0.06em;
+                    }
+                }
+                &__items {
+                    margin-top: -20px;
+                    // margin-bottom: 60rem;
+                    padding: 0px 20px;
+                    .items-row__f {
+                        .items-f__item {
+                            width: 350rem;
+                            height: 350rem;
+                            .item-content {
+                                .item-ff__txt {
+                                    font-size: 30rem;
+                                    line-height: 45rem;
+                                }
+                            }
+                        }
+                    }
+                    .mx-35 {
+                        margin: 0 60rem 0;
+                    }
+                }
+                .items-row__s {
+                    margin-top: 15px;
+                    .items-f__item {
+                        width: 350rem;
+                        height: 350rem;
+                        .item-content {
+                            .item-ff__txt {
+                                font-size: 30rem;
+                                line-height: 45rem;
+                            }
+                        }
+                    }
+                    .mx-35 {
+                        margin: 0 60rem 0;
+                    }
+                }
+            }
+        }
+        .fv-info__img {
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px 20px;
+            .info-box {
+                top: 0;
+                left: 0;
+                transform: none;
+                position: relative;
+                flex-direction: column;
+                // padding: 15px 40px;
+                padding: 0px;
+                .price {
+                    padding-top: 20px;
+                    &-f {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .price-ttl {
+                            padding-left: 0px;
+                            font-size: 70rem;
+                            line-height: 90rem;
+                            .sp-only {
+                                display: block;
+                            }
+                        }
+                        .price-txt {
+                            display: flex;
+                            align-items: flex-end;
+                            &__month {
+                                font-size: 40rem;
+                                line-height: 50rem;
+                            }
+                            &__amount {
+                                font-size: 170rem;
+                                line-height: 200rem;
+                            }
+                            &__unit {
+                                font-size: 50rem;
+                            }
+                        }
+                    }
+                    &-desc {
+                        padding-left: 0px;
+                        .txt {
+                            width: 100%;
+                            font-size: 30rem;
+                            line-height: 50rem;
+                        }
+                    }
+                }
+                .contact-method {
+                    padding-left: 0px;
+                    margin-top: 35rem;
+                    display: flex;
+                    justify-content: center;
+                    .contact-phone {
+                        margin-left: 20px;
+                        margin-bottom: 20px;
+                        margin-right: 0px;
+                        padding: 15rem 30rem;
+                        width: auto;
+                        height: auto;
+                        &__img {
+                            img {
+                                width: 60rem;
+                            }
+                        }
+                        &__info {
+                            padding-left: 15rem;
+                            &-desc {
+                                font-size: 30rem;
+                                line-height: 35rem;
+                            }
+                            &-number {
+                                font-size: 60rem;
+                                line-height: 70rem;
+                            }
+                        }
+                    }
+                    .contact-web {
+                        margin-left: 20px;
+                        margin-bottom: 20px;
+                        margin-right: 20px;
+                        margin-top: 0px;
+                        padding: 15rem 40rem;
+                        width: auto;
+                        height: auto;
+                        &__img {
+                            img {
+                                width: 60rem;
+                            }
+                        }
+                        &__info {
+                            padding-left: 15rem;
+                            &-desc {
+                                font-size: 30rem;
+                                line-height: 50rem;
+                            }
+                            &-number {
+                                font-size: 60rem;
+                                line-height: 70rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    .section-first__view {
+        .container {
+            .first-view {
+                margin-top: 26px;
+                &__img {
+                    margin-top: -13px;
+                }
+                &__desc {
+                    padding: 0 10px;
+                    .desc-ttl {
+                        font-size: 24px;
+                        line-height: 32px;
+                    }
+                    .desc-txt {
+                        width: 225px;
+                        height: 50px;
+                        margin-top: 10px;
+                        font-size: 12px;
+                        line-height: 20px;
+                        position: relative;
+                        padding: 6px 10px;
+                        z-index: 10;
+                    }
+                }
+                &__items {
+                    margin-top: -15px;
+                    margin-bottom: 30px;
+                    .items-row__f {
+                        .items-f__item {
+                            width: 120.5px;
+                            height: 120.5px;
+                            .item-content {
+                                .img-f {
+                                    img {
+                                        width: 22px;
+                                        height: 33px;
+                                    }
+                                }
+                                .img-s {
+                                    img {
+                                        width: 24px;
+                                        height: 35px;
+                                    }
+                                }
+                                .img-t {
+                                    img {
+                                        width: 20px;
+                                        height: 28px;
+                                    }
+                                }
+                                .item-ff__txt {
+                                    font-size: 10px;
+                                    line-height: 13px;
+                                }
+                            }
+                        }
+                        .mx-35 {
+                            margin: 0px
+                        }
+                    }
+                    .items-row__s {
+                        .items-f__item {
+                            width: 120.5px;
+                            height: 120.5px;
+                            .item-content {
+                                .img-f {
+                                    img {
+                                        width: 37px;
+                                        height: 32px;
+                                    }
+                                }
+                                .img-s {
+                                    img {
+                                        width: 25px;
+                                        height: 26px;
+                                    }
+                                }
+                                .img-t {
+                                    img {
+                                        width: 36px;
+                                        height: 51px;
+                                    }
+                                }
+                                .item-ff__txt {
+                                    font-size: 10px;
+                                    line-height: 13px;
+                                }
+                            }
+                        }
+                        .mx-35 {
+                            margin: 0px
+                        }
+                    }
+                }
+            }
+        }
+        .fv-info__img {
+            // height: 210px;
+            .info-box {
+                // padding: 14px 13px;
+                .price {
+                    &-ttl {
+                        font-size: 24px;
+                        line-height: 30px;
+                    }
+                    &-txt {
+                        margin-left: 13px;
+                        &__month {
+                            font-size: 13px;
+                            line-height: 14px;
+                        }
+                        &__amount {
+                            font-size: 54px;
+                            line-height: 55px;
+                        }
+                        &__unit {
+                            font-size: 15px;
+                            line-height: 18px;
+                        }
+                    }
+                    &-desc {
+                        .txt {
+                            font-size: 10px;
+                            line-height: 14px;
+                        }
+                    }
+                }
+                .contact-method {
+                    .contact-phone {
+                        margin-left: 15px;
+                        padding: 6px 3px 8px;
+                        width: 171px;
+                        height: 46px;
+                        &__img {
+                            img {
+                                width: 18px;
+                                height: 18px;
+                            }
+                        }
+                        &__info {
+                            &-desc {
+                                font-size: 11px;
+                                line-height: 13px;
+                            }
+                            &-number {
+                                font-size: 20px;
+                                line-height: 21px;
+                            }
+                        }
+                    }
+                    .contact-web {
+                        margin-left: 15px;
+                        margin-right: 15px;
+                        padding: 6px 12px 8px;
+                        &__img {
+                            img {
+                                width: 19px;
+                                height: 19px;
+                            }
+                        }
+                        &__info {
+                            &-desc {
+                                font-size: 11px;
+                                line-height: 13px;
+                            }
+                            &-number {
+                                font-size: 15px;
+                                line-height: 17px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

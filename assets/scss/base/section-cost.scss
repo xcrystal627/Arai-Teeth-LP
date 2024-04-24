@@ -1,0 +1,341 @@
+    .section-cost {
+        padding-top: 80px;
+        padding-bottom: 100px;
+        background: url('./../img/price-background.png');
+        .container {
+            padding: 0 165px;
+            .cost-ttl {
+                font-size: 34px;
+                letter-spacing: 0.12em;
+                line-height: 35px;
+                text-align: center;
+                color: #463c39;
+                font-family: YuGothic;
+                font-weight: bold;
+                position: relative;
+                &__top {
+                    font-size: 64px;
+                    line-height: 64px;
+                    position: absolute;
+                    top: -45px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    font-family: Marcellus;
+                    font-weight: normal;
+                    color: rgba(146, 135, 134, 0.3);
+                    opacity: 0.8;
+                }
+            }
+            .cost-items {
+                display: flex;
+                justify-content: center;
+                &__item {
+                    width: 505px;
+                    padding: 74px 63px 46px;
+                    background: #fff;
+                    border-radius: 30px;
+                    position: relative;
+                    .item-img {
+                        position: absolute;
+                        top: -50px;
+                        left: 50%;
+                        transform: translateX(-50%);
+                    }
+                    .item-ttl {
+                        font-size: 36px;
+                        line-height: 36px;
+                        font-family: YuGothic;
+                        font-weight: bold;
+                        text-align: center;
+                        color: #21508d;
+                        .color-red {
+                            color: #f24376;
+                        }
+                        .ttl-top {
+                            font-size: 16px;
+                            letter-spacing: 0.05em;
+                            line-height: 46px;
+                            font-family: YuGothic;
+                            font-weight: bold;
+                        }
+                        .ttl-small {
+                            font-size: 26px;
+                            line-height: 28px;
+                        }
+                    }
+                    .item-cost__bulk {
+                        margin-top: 16px;
+                        font-size: 36px;
+                        line-height: 40px;
+                        font-weight: 500;
+                        font-family: YuGothic;
+                        color: #463c39;
+                        text-align: center;
+                        .bulk {
+                            font-size: 19px;
+                            line-height: 20px;
+                        }
+                        .cost-unit {
+                            font-size: 19px;
+                            line-height: 20px;
+                            .cost-tax {
+                                font-size: 10px;
+                                line-height: 12px;
+                            }
+                        }
+                    }
+                    .item-cost__month {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .month {
+                            font-size: 23px;
+                            line-height: 25px;
+                            font-family: YuGothic;
+                            font-weight: bold;
+                            color: #f03460;
+                        }
+                        .cost {
+                            font-size: 60px;
+                            font-family: "FuturaPT";
+                            font-weight: normal;
+                            color: #f03460;
+                            .cost-unit {
+                                font-size: 28px;
+                                line-height: 30px;
+                                .cost-tax {
+                                    font-size: 10px;
+                                    line-height: 12px;
+                                }
+                            }
+                        }
+                    }
+                    .cost-desc {
+                        margin-top: 34px;
+                        &__ttl {
+                            .base-line {
+                                border: 1px solid #e9e3d3;
+                                position: relative;
+                                .txt {
+                                    font-size: 16px;
+                                    padding: 0 28px;
+                                    background: #fff;
+                                    line-height: 18px;
+                                    position: absolute;
+                                    top: -10px;
+                                    left: 50%;
+                                    transform: translateX(-50%);
+                                    font-family: YuGothic;
+                                    font-weight: bold;
+                                    text-align: center;
+                                    color: #463c39;
+                                }
+                            }
+                        }
+                        &__desc {
+                            margin-top: 30px;
+                            font-size: 14px;
+                            line-height: 26px;
+                            font-family: YuGothic;
+                            font-weight: bold;
+                            color: #463c39;
+                        }
+                        &__detail {
+                            margin-top: 45px;
+                            font-size: 11px;
+                            line-height: 17px;
+                            font-weight: 500;
+                            font-family: YuGothic;
+                            text-align: left;
+                            color: #463c39;
+                        }
+                    }
+                }
+                .ml-60 {
+                    margin-left: 60px;
+                }
+            }
+            .mt-73 {
+                margin-top: 73px;
+            }
+            .mt-100 {
+                margin-top: 100px;
+            }
+            .mt-70-sp {
+                margin-top: 0;
+            }
+        }
+    }
+    
+    @media (max-width: 1399px) {
+        .section-cost {
+            padding-bottom: 100rem;
+            .container {
+                padding: 0 50rem;
+                .cost-items {
+                    &__item {
+                        width: 440px;
+                        padding: 74rem 63rem 46rem;
+                    }
+                    .ml-60 {
+                        margin-left: 40px;
+                    }
+                }
+            }
+        }
+    }
+    
+    @media (max-width: 992px) {
+        .section-cost {
+            .container {
+                padding: 0 150rem;
+                .cost-items {
+                    flex-direction: column;
+                    align-items: center;
+                    &__item {
+                        width: 440px;
+                        padding: 40px 63rem 46rem;
+                    }
+                    .ml-60 {
+                        margin-left: 0;
+                    }
+                    .mt-70-sp {
+                        margin-top: 70px;
+                    }
+                }
+                .mt-100 {
+                    margin-top: 70px;
+                }
+            }
+        }
+    }
+    
+    @media (max-width: 750px) {
+        .section-cost {
+            .container {
+                padding: 0 150rem;
+                .cost-ttl {
+                    font-size: 22px;
+                    letter-spacing: 0.12em;
+                    line-height: 22px;
+                    &__top {
+                        font-size: 44px;
+                        line-height: 44px;
+                        top: -30px;
+                        left: 50%;
+                    }
+                }
+            }
+        }
+    }
+    
+    @media (max-width: 550px) {
+        .section-cost {
+            padding-top: 60px;
+            .container {
+                padding: 0 22px;
+                .cost-ttl {
+                    font-size: 22px;
+                    line-height: 25px;
+                    &__top {
+                        font-size: 44px;
+                        line-height: 44px;
+                        top: -30px;
+                    }
+                }
+                .cost-items {
+                    &__item {
+                        width: 1200rem;
+                        padding: 45px 63rem 46rem;
+                        .item-img {
+                            img {
+                                width: 97px;
+                            }
+                        }
+                        .item-ttl {
+                            font-size: 26px;
+                            line-height: 29px;
+                            .ttl-top {
+                                font-size: 13px;
+                                letter-spacing: 0.05em;
+                                line-height: 18px;
+                            }
+                            .ttl-small {
+                                font-size: 18px;
+                                line-height: 20px;
+                            }
+                        }
+                        .item-cost__bulk {
+                            margin-top: 16px;
+                            font-size: 31px;
+                            line-height: 33px;
+                            .bulk {
+                                font-size: 16px;
+                                line-height: 18px;
+                            }
+                            .cost-unit {
+                                font-size: 13px;
+                                line-height: 15px;
+                                .cost-tax {
+                                    font-size: 9px;
+                                    line-height: 10px;
+                                }
+                            }
+                        }
+                        .item-cost__month {
+                            .month {
+                                font-size: 20px;
+                                line-height: 21px;
+                            }
+                            .cost {
+                                font-size: 53px;
+                                line-height: 55px;
+                                .cost-unit {
+                                    font-size: 25px;
+                                    line-height: 37px;
+                                    .cost-tax {
+                                        font-size: 9px;
+                                        line-height: 10px;
+                                    }
+                                }
+                            }
+                        }
+                        .cost-desc {
+                            margin-top: 20px;
+                            &__ttl {
+                                .base-line {
+                                    .txt {
+                                        font-size: 12px;
+                                        padding: 0 28px;
+                                        line-height: 12.5px;
+                                    }
+                                }
+                            }
+                            &__desc {
+                                margin-top: 11px;
+                                font-size: 14px;
+                                line-height: 22px;
+                            }
+                            &__detail {
+                                margin-top: 30px;
+                                font-size: 10px;
+                                line-height: 17px;
+                            }
+                        }
+                    }
+                    .ml-60 {
+                        margin-left: 0;
+                    }
+                    .mt-70-sp {
+                        margin-top: 75px;
+                    }
+                }
+                .mt-73 {
+                    margin-top: 85px;
+                }
+                .mt-100 {
+                    margin-top: 75px;
+                }
+            }
+        }
+    }
